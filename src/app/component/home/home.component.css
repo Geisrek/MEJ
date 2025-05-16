@@ -2,11 +2,11 @@
 .home{
     display: flex;
     flex-direction: column;
-    height: 2000px;
-    width: 100%;
+    height: 2300px;
+    width: 1380px;
 }
 .principal{
-    margin-top: 250px;
+    margin-top: 200px;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 }
 .discription{
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     
@@ -54,15 +54,49 @@
     margin-left: 2%;
 }
 .logo{
-    width: 900px;
-    height: 400px;
-    margin-left: 20px;
-    background-color: rgba(129, 142, 185, 0.6);
+    width: 1300px;
+    height: 600px;
+   
+    
+    display: flex;
+    justify-content: flex-end;
 }
 .logo img{
     height: 100%;
     width: 100%;
+    transform: translateX(-20%);
+
     
+}
+.title{
+    height: 100vh;
+    width: 30%;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right:1px solid rgb(250, 249, 249) ;
+    transform: rotate(-20deg) translateX(-90%) translateY(-32%);
+}
+.logo-text{
+    height: 100%;
+    width: 50vw;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(red, green, blue, 0);
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 35px;
+    color: gray;
+
+}
+.logo-text h1{
+    font-size: 50px;
+    color: rgb(32, 32, 32);
+}
+.logo-text h4{
+    margin-left: 20px;
 }
 .marketing{
     margin-top: 4%;
@@ -72,6 +106,7 @@
 
 }
 .hot{
+    margin-top: 150px;
     height: 500px;
     width: 1500px;
     display: flex;
