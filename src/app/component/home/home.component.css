@@ -2,8 +2,8 @@
 .home{
     display: flex;
     flex-direction: column;
-    height: 2300px;
-    width: 1380px;
+   
+    width: 100vw;
 }
 .principal{
     margin-top: 200px;
@@ -25,11 +25,12 @@
     
     font-size: 30px;
     color: rgb(24, 24, 24);
+    margin-top: 20px;
 }
 .discription h3{
     text-align: center;
     margin-bottom: 60px;
-   margin-top: 30px;
+   margin-top: 5%;
     
 }
 #dis-m{
@@ -38,6 +39,7 @@
     justify-content: space-evenly;
     width: 90%;
     margin-left: 5%;
+    
     cursor: pointer;
 }
 .dis-i{
@@ -48,13 +50,13 @@
     
 }
 .dis-i:hover{
-   transform: translateY(-5%);
+   transform: translateY(-15%);
 }
 .dis-i h6{
     margin-left: 2%;
 }
 .logo{
-    width: 1300px;
+    width: 100%;
     height: 600px;
    
     
@@ -64,30 +66,30 @@
 .logo img{
     height: 100%;
     width: 100%;
-    transform: translateX(-20%);
+    transform: translateX(10%);
 
     
 }
 .title{
-    height: 100vh;
+    height: 127%;
     width: 30%;
     z-index: 1;
     background-color: rgb(255, 255, 255);
     border-left: 1px solid rgb(255, 255, 255);
-    border-right:1px solid rgb(250, 249, 249) ;
-    transform: rotate(-20deg) translateX(-90%) translateY(-32%);
+    border-right:1px solid rgb(250, 248, 248) ;
+    transform: rotate(-15deg) translateX(10%) translateY(-10%);
 }
 .logo-text{
     height: 100%;
-    width: 50vw;
-    position: absolute;
+    width: 100%;
+   
     z-index: 2;
     background-color: rgba(red, green, blue, 0);
-    left: 50%;
+    transform: translateX(-20%);
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 35px;
+    font-size: 30px;
     color: gray;
 
 }
@@ -99,25 +101,25 @@
     margin-left: 20px;
 }
 .marketing{
-    margin-top: 4%;
-    height: 80vh;
+   
+    height:70vh;
     width: 100%;
    
 
 }
 .hot{
     margin-top: 150px;
-    height: 500px;
-    width: 1500px;
+    height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    background-color: rgb(245, 245, 252);
     
 }
 .hot-i{
- height: 40vh;
- width: 30vw;
+ height: 90%;
+ width: 100%;
  display: flex;
  align-items: center;
 justify-content: center;
@@ -126,20 +128,20 @@ margin: 5%;
 overflow: hidden;
 }
 .hot-i img{
-    height: 40vh;
-    width: 100%;
+    height: 80%;
+    width: 80%;
    
    
     
 }
 .rotated{
     border: 1px solid rgb(247, 56, 56);
-    height: 15px;
-    width: 120px;
+    height: 3%;
+    width: 4rem;
     position: relative;
     background-color:rgb(247, 56, 56) ;
-    
-    bottom: 30%;
+   
+    bottom: 25%;
     left: 20%;
 }
 .rotated h5{
