@@ -1,13 +1,14 @@
+import { AgmCoreModule } from '@agm/core';
 import { Component } from '@angular/core';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { BrowserModule } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-services',
   imports: [
     GoogleMapsModule,
-    BrowserModule,
-    AgmCoreModule
+   
+    
   ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
