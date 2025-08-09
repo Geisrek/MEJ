@@ -1,0 +1,21 @@
+.aboutItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    width:80vw ;
+    border-radius:2rem;
+    background-color: #BCBCBC;
+}
+.aboutItem img{
+    height: 90%;
+    width: 45%;
+    border-radius: 7%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+
+}
+.aboutItem h4{
+    height: 90%;
+    width: 45%;
+}

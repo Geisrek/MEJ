@@ -1,3 +1,58 @@
 .about_section{
-    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+.about-head{
+    margin-top: 11%;
+    height: 150px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+.about-item{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+.about-item img{
+    height: 90%;
+    width: 30%;
+    border-radius: 50%;
+}
+.about-item p{
+    width: 50%;
+}
+.about-container{
+    margin-top: 5%;
+    display: flex;
+    
+    height:80vh;
+    width: 100%;
+}
+.about-description{
+    width: 45%;
+
+text-align: center;
+z-index: 1;
+}
+.about-images{
+    width: 52%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blueviolet;
+    transform: rotate(45deg);
+}
+.about-image{
+    height: 45%;
+    transform: rotate(-45deg);
+
 }
