@@ -58,3 +58,33 @@ line-break:strict ;
     transform: rotate(-45deg);
 
 }
+@media (max-width:500px) {
+    .about-head{
+        margin-top:50%;
+        height: 100vh;
+        flex-direction: column-reverse;
+        width: 150%;
+    }
+    .about-item{
+        width: 60%;
+    }
+    .about-container{
+        width: 150%;
+    }
+    .about-images{
+        width: 40%;
+        height: 70%;
+        transform: rotate(10deg);
+    }
+    .about-image{
+        height: 25%;
+
+    }
+    .about-description{
+        overflow: scroll;
+        width: 50%;
+    }
+    .about-item img{
+        height: 70%;
+    }
+}
