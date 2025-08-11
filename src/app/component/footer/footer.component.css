@@ -52,3 +52,15 @@
 .nav-item{
     cursor: pointer;
 }
+@media (max-width:500px) {
+    .footer{
+        width: 150%;
+    }
+    .L{
+        font-size: 40px;
+        width: 65%;
+        align-items: center;
+        height: 40%;
+        
+    }
+}

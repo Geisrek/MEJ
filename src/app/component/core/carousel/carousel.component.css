@@ -32,3 +32,13 @@
     text-align: center;
     width: 80%;
 }
+@media (max-width:500px) {
+    .carousel{
+        height: 60vh;
+        width: 150%;
+    }
+    .description{
+        font-size: 15px;
+    }
+    
+}

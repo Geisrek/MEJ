@@ -58,8 +58,6 @@
 .logo{
     width: 100%;
     height: 600px;
-   
-    
     display: flex;
     justify-content: flex-end;
 }
@@ -147,4 +145,42 @@ overflow: hidden;
 .rotated h5{
     text-align: center;
     color: white;
+}
+
+@media (max-width:500px) {
+    .logo{
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+       
+    }
+    .logo img{
+        width: 100%;
+    }
+    .logo-text{
+      margin-left: 30%;
+      margin-top: 5%;
+    }
+    .logo-text h1{
+        font-size: 15px;
+    }
+    .logo-text h4{
+        font-size: 10px;
+    }
+    #dis-m{
+        margin-left: 0;
+        
+    }
+    .hot{
+        margin-top: 100px;
+        height: 45vh;
+       justify-content: center;
+       width: 150%;
+    }
+    .rotated{
+        height: 7%;
+    }
+    .hot-i{
+        height: 60%;
+    }
 }

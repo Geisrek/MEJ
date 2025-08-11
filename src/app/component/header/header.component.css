@@ -49,3 +49,48 @@ a{
 .nav-item:hover{
     color: white;
 }
+.burger-button{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+    visibility: hidden;
+}
+.burger-button img{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:500px) {
+    .burger-button{
+        visibility: visible;
+        position: relative;
+       bottom: 25%;
+    }
+   
+    .L{
+        display: flex;
+        width: 40vw;
+        font-size: 40px;
+    }
+    .nav-menu{
+       flex-direction: column;
+       row-gap: 10px;
+       margin-top: 15%;
+       margin-right: 40%;
+    }
+    .hidden{
+        visibility: hidden;
+    }
+    .open{
+        height: 50vh;
+    }
+    .down{
+     bottom: 15%;
+    }
+    .header{
+        width: 100%;
+    }
+}
